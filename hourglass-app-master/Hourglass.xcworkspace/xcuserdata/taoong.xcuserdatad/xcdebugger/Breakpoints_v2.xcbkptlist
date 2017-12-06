@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hourglass/Controller/ProductiveViewController.swift"
+            timestampString = "534282459.655563"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "ProductiveViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hourglass.ProductiveViewController.timer.getter : __ObjC.Timer"
+                  moduleName = "Hourglass"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taoong/Desktop/Projects/Apps/Hourglass/hourglass-app-master/Hourglass/Controller/ProductiveViewController.swift"
+                  timestampString = "534269900.206529"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hourglass.ProductiveViewController.timer.setter : __ObjC.Timer"
+                  moduleName = "Hourglass"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taoong/Desktop/Projects/Apps/Hourglass/hourglass-app-master/Hourglass/Controller/ProductiveViewController.swift"
+                  timestampString = "534269900.210486"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hourglass.ProductiveViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Hourglass.ProductiveViewController"
+                  moduleName = "Hourglass"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taoong/Desktop/Projects/Apps/Hourglass/hourglass-app-master/Hourglass/Controller/ProductiveViewController.swift"
+                  timestampString = "534269900.211981"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "374">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hourglass.ProductiveViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Hourglass.ProductiveViewController&gt;"
+                  moduleName = "Hourglass"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taoong/Desktop/Projects/Apps/Hourglass/hourglass-app-master/Hourglass/Controller/ProductiveViewController.swift"
+                  timestampString = "534269900.214039"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "303">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
