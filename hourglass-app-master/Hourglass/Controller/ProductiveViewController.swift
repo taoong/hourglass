@@ -215,24 +215,22 @@ class ProductiveViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        timerLabel.text = String(self.model.totalProductiveCounter)
         pauseButton.isEnabled = false
         
         if self.model.productive {
             animationView = LOTAnimationView(name: "hourglass2")
+            timerLabel.text = String(self.model.totalProductiveCounter)
         } else {
             animationView = LOTAnimationView(name: "hourglass")
+            timerLabel.text = String(self.model.unproductiveCounter)
+            productiveOrNot.textColor = UIColor.white
+            timerLabel.textColor = UIColor.white
+            currActivityLabel.textColor = UIColor.white
         }
         prepareAnimation()
         done.frame = doneRect
         done.contentMode = .scaleAspectFill
         self.view.addSubview(done)
-        
-        if self.model.unproductive {
-            productiveOrNot.textColor = UIColor.white
-            timerLabel.textColor = UIColor.white
-            currActivityLabel.textColor = UIColor.white
-        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -262,10 +260,21 @@ class ProductiveViewController: UIViewController {
             })
             self.present(alert, animated: true, completion: nil)
         }
-        if self.model.unproductive {
+        
+        if self.model.productive && self.model.productiveCounter == 0 {
+            animationView = LOTAnimationView(name: "hourglass2")
+            timerLabel.text = String(self.model.totalProductiveCounter)
+        } else if self.model.unproductive && self.model.unproductiveCounter == 0 {
+            animationView = LOTAnimationView(name: "hourglass")
             productiveOrNot.textColor = UIColor.white
             timerLabel.textColor = UIColor.white
             currActivityLabel.textColor = UIColor.white
+        }
+        
+        if self.model.productive {
+            timerLabel.text = String(self.model.totalProductiveCounter)
+        } else {
+            timerLabel.text = String(self.model.unproductiveCounter)
         }
         
         
