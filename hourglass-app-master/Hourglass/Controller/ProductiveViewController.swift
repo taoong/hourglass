@@ -102,9 +102,7 @@ class ProductiveViewController: UIViewController {
         timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(UpdateTimer), userInfo: nil, repeats: true)
         isPlaying = true
         animationView.loopAnimation = true
-        animationView.play{ (finished) in
-            // Do Something
-        }
+        animationView.play()
     }
     
     @IBAction func pauseTimer(_ sender: AnyObject) {
@@ -262,10 +260,8 @@ class ProductiveViewController: UIViewController {
         }
         
         if self.model.productive && self.model.productiveCounter == 0 {
-            animationView = LOTAnimationView(name: "hourglass2")
             timerLabel.text = String(self.model.totalProductiveCounter)
         } else if self.model.unproductive && self.model.unproductiveCounter == 0 {
-            animationView = LOTAnimationView(name: "hourglass")
             productiveOrNot.textColor = UIColor.white
             timerLabel.textColor = UIColor.white
             currActivityLabel.textColor = UIColor.white

@@ -15,26 +15,26 @@
 		F032B0E31FD83D34006E883B /* hourglass3.json in Resources */ = {isa = PBXBuildFile; fileRef = F032B0DF1FD83D31006E883B /* hourglass3.json */; };
 		F032B0E41FD83D34006E883B /* hourglass4.json in Resources */ = {isa = PBXBuildFile; fileRef = F032B0DE1FD83D31006E883B /* hourglass4.json */; };
 		F032B0E51FD83D34006E883B /* hourglass5.json in Resources */ = {isa = PBXBuildFile; fileRef = F032B0E01FD83D31006E883B /* hourglass5.json */; };
+		F0448AAC1FD9B7EC005D41EC /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0448AA51FD9B7E8005D41EC /* OpenSans-Bold.ttf */; };
+		F0448AAD1FD9B7EC005D41EC /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0448AAB1FD9B7E8005D41EC /* OpenSans-Light.ttf */; };
+		F0448AAE1FD9B7EC005D41EC /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0448AA91FD9B7E8005D41EC /* OpenSans-Regular.ttf */; };
+		F0448AAF1FD9B7EC005D41EC /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0448AA61FD9B7E8005D41EC /* OpenSans-Semibold.ttf */; };
+		F0448AB01FD9B7EC005D41EC /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0448AAA1FD9B7E8005D41EC /* Raleway-Light.ttf */; };
+		F0448AB11FD9B7EC005D41EC /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0448AA81FD9B7E8005D41EC /* Raleway-Medium.ttf */; };
+		F0448AB21FD9B7EC005D41EC /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0448AA71FD9B7E8005D41EC /* Raleway-Regular.ttf */; };
+		F0448AB31FD9B7EC005D41EC /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0448AA41FD9B7E8005D41EC /* Raleway-SemiBold.ttf */; };
+		F0448AB91FD9B828005D41EC /* good.png in Resources */ = {isa = PBXBuildFile; fileRef = F0448AB71FD9B81F005D41EC /* good.png */; };
+		F0448ABA1FD9B828005D41EC /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = F0448AB81FD9B81F005D41EC /* pause.png */; };
+		F0448ABB1FD9B828005D41EC /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = F0448AB51FD9B81F005D41EC /* play.png */; };
+		F0448ABC1FD9B828005D41EC /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = F0448AB41FD9B81F005D41EC /* stop.png */; };
+		F0448ABD1FD9B828005D41EC /* bad.png in Resources */ = {isa = PBXBuildFile; fileRef = F0448AB61FD9B81F005D41EC /* bad.png */; };
 		F05595051FC90C6600940D87 /* Hourglass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05595041FC90C6600940D87 /* Hourglass.swift */; };
 		F0AED81F1FC6B7EB00A7C525 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AED81E1FC6B7EB00A7C525 /* AppDelegate.swift */; };
 		F0AED8211FC6B7EB00A7C525 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AED8201FC6B7EB00A7C525 /* HomeViewController.swift */; };
 		F0AED8241FC6B7EB00A7C525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0AED8221FC6B7EB00A7C525 /* Main.storyboard */; };
 		F0AED8261FC6B7EB00A7C525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0AED8251FC6B7EB00A7C525 /* Assets.xcassets */; };
 		F0AED8291FC6B7EB00A7C525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0AED8271FC6B7EB00A7C525 /* LaunchScreen.storyboard */; };
-		F0D8209C1FD841C800D7CC73 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0D8209B1FD841AF00D7CC73 /* Raleway-Light.ttf */; };
-		F0D8209F1FD843DA00D7CC73 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0D8209E1FD843D100D7CC73 /* Raleway-Regular.ttf */; };
-		F0D820A51FD844F400D7CC73 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0D820A11FD844CF00D7CC73 /* OpenSans-Light.ttf */; };
-		F0D820A61FD844F400D7CC73 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0D820A21FD844D900D7CC73 /* OpenSans-Regular.ttf */; };
-		F0D820A71FD844F400D7CC73 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0D820A31FD844DC00D7CC73 /* OpenSans-Semibold.ttf */; };
-		F0D820A81FD844F400D7CC73 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0D820A41FD844E400D7CC73 /* OpenSans-Bold.ttf */; };
 		F0D820AB1FD8562F00D7CC73 /* done.json in Resources */ = {isa = PBXBuildFile; fileRef = F0D820AA1FD8562E00D7CC73 /* done.json */; };
-		F0D820B01FD874E800D7CC73 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0D820AE1FD874E500D7CC73 /* Raleway-Medium.ttf */; };
-		F0D820B11FD874E800D7CC73 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0D820AF1FD874E500D7CC73 /* Raleway-SemiBold.ttf */; };
-		F0D820B61FD878FE00D7CC73 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = F0D820B51FD878FC00D7CC73 /* pause.png */; };
-		F0D820B71FD878FE00D7CC73 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = F0D820B41FD878FC00D7CC73 /* play.png */; };
-		F0D820B81FD878FE00D7CC73 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = F0D820B31FD878FB00D7CC73 /* stop.png */; };
-		F0D820BB1FD87C6B00D7CC73 /* bad.png in Resources */ = {isa = PBXBuildFile; fileRef = F0D820B91FD87C6800D7CC73 /* bad.png */; };
-		F0D820BC1FD87C6B00D7CC73 /* good.png in Resources */ = {isa = PBXBuildFile; fileRef = F0D820BA1FD87C6900D7CC73 /* good.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +48,19 @@
 		F032B0DE1FD83D31006E883B /* hourglass4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hourglass4.json; sourceTree = "<group>"; };
 		F032B0DF1FD83D31006E883B /* hourglass3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hourglass3.json; sourceTree = "<group>"; };
 		F032B0E01FD83D31006E883B /* hourglass5.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hourglass5.json; sourceTree = "<group>"; };
+		F0448AA41FD9B7E8005D41EC /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-SemiBold.ttf"; path = "Hourglass/Fonts/Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		F0448AA51FD9B7E8005D41EC /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "Hourglass/Fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		F0448AA61FD9B7E8005D41EC /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Semibold.ttf"; path = "Hourglass/Fonts/OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		F0448AA71FD9B7E8005D41EC /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Regular.ttf"; path = "Hourglass/Fonts/Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		F0448AA81FD9B7E8005D41EC /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Medium.ttf"; path = "Hourglass/Fonts/Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		F0448AA91FD9B7E8005D41EC /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "Hourglass/Fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		F0448AAA1FD9B7E8005D41EC /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Light.ttf"; path = "Hourglass/Fonts/Raleway-Light.ttf"; sourceTree = "<group>"; };
+		F0448AAB1FD9B7E8005D41EC /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Light.ttf"; path = "Hourglass/Fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		F0448AB41FD9B81F005D41EC /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stop.png; path = Hourglass/Pictures/stop.png; sourceTree = "<group>"; };
+		F0448AB51FD9B81F005D41EC /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = Hourglass/Pictures/play.png; sourceTree = "<group>"; };
+		F0448AB61FD9B81F005D41EC /* bad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bad.png; path = Hourglass/Pictures/bad.png; sourceTree = "<group>"; };
+		F0448AB71FD9B81F005D41EC /* good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = good.png; path = Hourglass/Pictures/good.png; sourceTree = "<group>"; };
+		F0448AB81FD9B81F005D41EC /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = Hourglass/Pictures/pause.png; sourceTree = "<group>"; };
 		F05595041FC90C6600940D87 /* Hourglass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hourglass.swift; sourceTree = "<group>"; };
 		F0AED81B1FC6B7EB00A7C525 /* Hourglass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hourglass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0AED81E1FC6B7EB00A7C525 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,20 +69,7 @@
 		F0AED8251FC6B7EB00A7C525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0AED8281FC6B7EB00A7C525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0AED82A1FC6B7EB00A7C525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0D8209B1FD841AF00D7CC73 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
-		F0D8209E1FD843D100D7CC73 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
-		F0D820A11FD844CF00D7CC73 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
-		F0D820A21FD844D900D7CC73 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
-		F0D820A31FD844DC00D7CC73 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
-		F0D820A41FD844E400D7CC73 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		F0D820AA1FD8562E00D7CC73 /* done.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = done.json; sourceTree = "<group>"; };
-		F0D820AE1FD874E500D7CC73 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
-		F0D820AF1FD874E500D7CC73 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
-		F0D820B31FD878FB00D7CC73 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
-		F0D820B41FD878FC00D7CC73 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
-		F0D820B51FD878FC00D7CC73 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
-		F0D820B91FD87C6800D7CC73 /* bad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bad.png; sourceTree = "<group>"; };
-		F0D820BA1FD87C6900D7CC73 /* good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = good.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +117,6 @@
 		F0AED8121FC6B7EB00A7C525 = {
 			isa = PBXGroup;
 			children = (
-				F0D820B21FD878ED00D7CC73 /* Images */,
-				F0D820A91FD8453500D7CC73 /* Fonts */,
 				F0AED81D1FC6B7EB00A7C525 /* Hourglass */,
 				F0AED81C1FC6B7EB00A7C525 /* Products */,
 				C70A4035C5871EAF178DBF4E /* Pods */,
@@ -137,6 +135,8 @@
 		F0AED81D1FC6B7EB00A7C525 /* Hourglass */ = {
 			isa = PBXGroup;
 			children = (
+				F0D820B21FD878ED00D7CC73 /* Images */,
+				F0D820A91FD8453500D7CC73 /* Fonts */,
 				F0234B811FD1215B009D45CC /* Animation */,
 				F0AED8301FC6B7F700A7C525 /* Model */,
 				F0AED8311FC6B7FC00A7C525 /* View */,
@@ -178,28 +178,30 @@
 		F0D820A91FD8453500D7CC73 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				F0D8209B1FD841AF00D7CC73 /* Raleway-Light.ttf */,
-				F0D8209E1FD843D100D7CC73 /* Raleway-Regular.ttf */,
-				F0D820A11FD844CF00D7CC73 /* OpenSans-Light.ttf */,
-				F0D820A21FD844D900D7CC73 /* OpenSans-Regular.ttf */,
-				F0D820A31FD844DC00D7CC73 /* OpenSans-Semibold.ttf */,
-				F0D820A41FD844E400D7CC73 /* OpenSans-Bold.ttf */,
-				F0D820AE1FD874E500D7CC73 /* Raleway-Medium.ttf */,
-				F0D820AF1FD874E500D7CC73 /* Raleway-SemiBold.ttf */,
+				F0448AA51FD9B7E8005D41EC /* OpenSans-Bold.ttf */,
+				F0448AAB1FD9B7E8005D41EC /* OpenSans-Light.ttf */,
+				F0448AA91FD9B7E8005D41EC /* OpenSans-Regular.ttf */,
+				F0448AA61FD9B7E8005D41EC /* OpenSans-Semibold.ttf */,
+				F0448AAA1FD9B7E8005D41EC /* Raleway-Light.ttf */,
+				F0448AA81FD9B7E8005D41EC /* Raleway-Medium.ttf */,
+				F0448AA71FD9B7E8005D41EC /* Raleway-Regular.ttf */,
+				F0448AA41FD9B7E8005D41EC /* Raleway-SemiBold.ttf */,
 			);
 			name = Fonts;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		F0D820B21FD878ED00D7CC73 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				F0D820B51FD878FC00D7CC73 /* pause.png */,
-				F0D820B41FD878FC00D7CC73 /* play.png */,
-				F0D820B31FD878FB00D7CC73 /* stop.png */,
-				F0D820B91FD87C6800D7CC73 /* bad.png */,
-				F0D820BA1FD87C6900D7CC73 /* good.png */,
+				F0448AB71FD9B81F005D41EC /* good.png */,
+				F0448AB81FD9B81F005D41EC /* pause.png */,
+				F0448AB51FD9B81F005D41EC /* play.png */,
+				F0448AB41FD9B81F005D41EC /* stop.png */,
+				F0448AB61FD9B81F005D41EC /* bad.png */,
 			);
 			name = Images;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,28 +266,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0D8209C1FD841C800D7CC73 /* Raleway-Light.ttf in Resources */,
-				F0D820B81FD878FE00D7CC73 /* stop.png in Resources */,
-				F0D820B01FD874E800D7CC73 /* Raleway-Medium.ttf in Resources */,
-				F0D8209F1FD843DA00D7CC73 /* Raleway-Regular.ttf in Resources */,
-				F0D820B11FD874E800D7CC73 /* Raleway-SemiBold.ttf in Resources */,
 				F032B0E31FD83D34006E883B /* hourglass3.json in Resources */,
-				F0D820A71FD844F400D7CC73 /* OpenSans-Semibold.ttf in Resources */,
+				F0448ABB1FD9B828005D41EC /* play.png in Resources */,
 				F0AED8291FC6B7EB00A7C525 /* LaunchScreen.storyboard in Resources */,
+				F0448ABD1FD9B828005D41EC /* bad.png in Resources */,
+				F0448AB91FD9B828005D41EC /* good.png in Resources */,
 				F0AED8261FC6B7EB00A7C525 /* Assets.xcassets in Resources */,
 				F032B0E41FD83D34006E883B /* hourglass4.json in Resources */,
-				F0D820BC1FD87C6B00D7CC73 /* good.png in Resources */,
 				F032B0E51FD83D34006E883B /* hourglass5.json in Resources */,
-				F0D820A81FD844F400D7CC73 /* OpenSans-Bold.ttf in Resources */,
 				F032B0E21FD83D34006E883B /* hourglass2.json in Resources */,
-				F0D820B71FD878FE00D7CC73 /* play.png in Resources */,
+				F0448AAC1FD9B7EC005D41EC /* OpenSans-Bold.ttf in Resources */,
+				F0448AB21FD9B7EC005D41EC /* Raleway-Regular.ttf in Resources */,
+				F0448AAD1FD9B7EC005D41EC /* OpenSans-Light.ttf in Resources */,
 				F032B0E11FD83D34006E883B /* hourglass.json in Resources */,
-				F0D820A51FD844F400D7CC73 /* OpenSans-Light.ttf in Resources */,
-				F0D820B61FD878FE00D7CC73 /* pause.png in Resources */,
-				F0D820A61FD844F400D7CC73 /* OpenSans-Regular.ttf in Resources */,
-				F0D820BB1FD87C6B00D7CC73 /* bad.png in Resources */,
+				F0448AAF1FD9B7EC005D41EC /* OpenSans-Semibold.ttf in Resources */,
+				F0448AAE1FD9B7EC005D41EC /* OpenSans-Regular.ttf in Resources */,
+				F0448ABA1FD9B828005D41EC /* pause.png in Resources */,
+				F0448AB01FD9B7EC005D41EC /* Raleway-Light.ttf in Resources */,
+				F0448AB11FD9B7EC005D41EC /* Raleway-Medium.ttf in Resources */,
+				F0448ABC1FD9B828005D41EC /* stop.png in Resources */,
 				F0D820AB1FD8562F00D7CC73 /* done.json in Resources */,
 				F0AED8241FC6B7EB00A7C525 /* Main.storyboard in Resources */,
+				F0448AB31FD9B7EC005D41EC /* Raleway-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
