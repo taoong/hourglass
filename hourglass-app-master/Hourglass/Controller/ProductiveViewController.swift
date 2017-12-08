@@ -19,10 +19,10 @@ class ProductiveViewController: UIViewController {
     
     
     var animationView = LOTAnimationView(name: "hourglass")
-    var imageRect = CGRect(x: 113, y: 300, width: 500, height: 300)
+    var imageRect = CGRect(x: 93, y: 250, width: 500, height: 300)
     
     var done = LOTAnimationView(name: "done")
-    var doneRect = CGRect(x: 173, y: 570, width: 70, height: 70)
+    var doneRect = CGRect(x: 153, y: 507, width: 70, height: 70)
     
     
     @IBOutlet weak var currentActivity: UILabel!
