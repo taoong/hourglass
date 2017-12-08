@@ -34,6 +34,7 @@ class ActivityTrackerViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         let activities = UserDefaults.standard.value(forKey: "activities") as? Dictionary<String, Double>
+        
         let names = Array(activities!.keys)
         let times = Array(activities!.values)
         
