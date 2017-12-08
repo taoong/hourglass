@@ -57,6 +57,7 @@ class ProductiveViewController: UIViewController {
                 activities.updateValue(counter, forKey: self.currentTask)
                 self.model.activities = activities
                 UserDefaults.standard.set(self.model.activities, forKey: "activities")
+                
                 print(activities)
             }
             if self.model.productiveCounter > 9 && self.model.productiveCounter < 9.1 {

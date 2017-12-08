@@ -35,16 +35,17 @@ class ActivityTrackerViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         let activities = UserDefaults.standard.value(forKey: "activities") as? Dictionary<String, Double>
         
-        let names = Array(activities!.keys)
-        let times = Array(activities!.values)
         
-        self.pieChartView = PieChartView(frame: self.view.bounds)
-        pieChartView.tag = 0
-        self.view1height.constant = self.view.bounds.height
-        self.view1.addSubview(pieChartView!)
-        setPieChart(dataPoints: names, values: times)
-        
-        currView = pieChartView
+            let names = Array(activities!.keys)
+            let times = Array(activities!.values)
+            
+            self.pieChartView = PieChartView(frame: self.view.bounds)
+            pieChartView.tag = 0
+            self.view1height.constant = self.view.bounds.height
+            self.view1.addSubview(pieChartView!)
+            setPieChart(dataPoints: names, values: times)
+            
+            currView = pieChartView
         
         
 //        self.barChartView = BarChartView(frame: self.view.bounds)
