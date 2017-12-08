@@ -20,6 +20,8 @@ class Hourglass {
     var numTreesGrown = 0
     var activities = [String : Double]()
     
+    var currentActivity = ""
+    
     init () {
         self.productive = false
         self.unproductive = false

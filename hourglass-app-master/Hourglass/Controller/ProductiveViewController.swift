@@ -162,13 +162,29 @@ class ProductiveViewController: UIViewController {
             currActivityLabel.textColor = UIColor.black
             animationView = LOTAnimationView(name: "hourglass2")
         }
-        prepareAnimation()
         
+        self.currentActivity.text = ""
+        prepareAnimation()
         drawButtons()
         
         startButton.imageView?.contentMode = .scaleAspectFit
         stopButton.imageView?.contentMode = .scaleAspectFit
         pauseButton.imageView?.contentMode = .scaleAspectFit
+        
+        let alert = UIAlertController(title: "Alert", message: "Input Intended Task or Activity", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "Enter", style: .default, handler: { [weak alert] (_) in
+            self.currentTask = (alert?.textFields![0].text!)!      // alert.textFields![0].text! is the input text from the textfield in the alert
+            if let activities = UserDefaults.standard.value(forKey: "activities") as? Dictionary<String, Double> {
+                self.model.activities = activities
+            }
+            self.currentActivity.text = self.currentTask
+            self.model.currentActivity = self.currentTask
+        }))
+        alert.addTextField(configurationHandler: {(textField: UITextField!) in
+            textField.placeholder = "E.g. Studying for biology midterm"
+            // textField.isSecureTextEntry = true     // for password input
+        })
+        self.present(alert, animated: true, completion: nil)
     }
     
     func prepareAnimation() {
@@ -243,7 +259,11 @@ class ProductiveViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         // Activity tracking logic. First presents an alert asking user to input task s/he is working on. Then stores mappings of task to time spent on task in a dictionary that is locally persistent.
+        
+        currActivityLabel.text = self.model.currentActivity
+        
         if self.model.productive && self.model.totalProductiveCounter == 0 || self.model.unproductive && self.model.unproductiveCounter == 0 {
+            self.currentActivity.text = ""
             let alert = UIAlertController(title: "Alert", message: "Input Intended Task or Activity", preferredStyle: UIAlertControllerStyle.alert)
             alert.addAction(UIAlertAction(title: "Enter", style: .default, handler: { [weak alert] (_) in
                 self.currentTask = (alert?.textFields![0].text!)!      // alert.textFields![0].text! is the input text from the textfield in the alert
@@ -251,6 +271,7 @@ class ProductiveViewController: UIViewController {
                     self.model.activities = activities
                 }
                 self.currentActivity.text = self.currentTask
+                self.model.currentActivity = self.currentTask
             }))
             alert.addTextField(configurationHandler: {(textField: UITextField!) in
                 textField.placeholder = "E.g. Studying for biology midterm"
@@ -272,6 +293,8 @@ class ProductiveViewController: UIViewController {
         } else {
             timerLabel.text = String(self.model.unproductiveCounter)
         }
+        
+        
         
         
 //        Use this for tracking number of times user began working on a task
