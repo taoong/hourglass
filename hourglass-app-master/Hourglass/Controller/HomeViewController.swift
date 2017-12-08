@@ -28,6 +28,10 @@ class HomeViewController: UIViewController {
         let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
         UIGraphicsEndImageContext()
         self.view.backgroundColor = UIColor(patternImage: image)
+        let activities = UserDefaults.standard.value(forKey: "activities") as? Dictionary<String, Double>
+        if activities == nil {
+            UserDefaults.standard.set(self.model.activities, forKey: "activities")
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
